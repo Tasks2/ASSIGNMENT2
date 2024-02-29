@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTS</title>
+    <link rel="stylesheet" href="products2.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">LivingStars</div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="products2.htm" class="active">OUR PRODUCTS</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+        </ul>
+    </nav>
+    <section class="intro">
+        <p>Welcome to Living Stars, the ultimate destination for all your hair and skin care needs. Our company is dedicated to providing top-quality products that will nourish and enhance the natural beauty of your hair and skin. With a wide range of carefully crafted formulas, we cater to every skin and hair type, ensuring that everyone can find the perfect match for their individual needs. From luxurious shampoos and conditioners to rejuvenating face masks and serums, Living Stars has it all. <br> Some of the most common are specified as follows.</p>
+    </section>
+    <h2><center><i>Skin Products</i></center></h2>
+    <div class="skin">
+        <img src="cera ve moisturizer 3500.jpg" alt="CERA VE MOISTURIZER" class="skinimg">
+        <p class="skintext">Tired of moisturizers that just sit on top of your skin? Meet the groundbreaking new CeraVe Moisturizer that delivers deep, lasting hydration. <br><br>  This revolutionary formula absorbs quickly to provide intense hydration that lasts all day long. The moisturizer was developed with dermatologists and uses the latest technology to repair and strengthen your skin's protective barrier. 
+            <br><br> Ksh 3500 
+            <button onclick="disCerave()">Read More</button>
+         </p>
+            <ul class="skinlist" id="ceraul" style="display: none;" >
+                <li> Restores the skin's natural moisture barrier </li>
+                <li>Packed with hyaluronic acid & ceramides </li>
+                <li>Fragrance-free, non-comedogenic </li>
+            </ul>
+    </div>
+    <div class="skin">
+        <img src="Clinque moisturizer 8K.jpg" alt="CLINIQUE MOISTURIZER" class="skinimg">
+        <p class="skintext">Looking for the latest and greatest moisturizer to keep your skin hydrated, smooth and radiant? Look no further than the new Clinque Moisturizer.  <br><br>This revolutionary moisturizer was developed with dermatologists to repair and strengthen the skin's protective barrier. The unique formula helps your skin retain moisture while also protecting against dryness and irritation. <br><br>Ksh 8000
+            <button onclick="disClin()">Read More</button>
+        </p>
+        <ul class="skinlist" id="clinul" style="display: none;">
+            <li> Lightweight, fast-absorbing formula </li>
+            <li>Packed with ceramides and hyaluronic acid</li>
+            <li>Fragrance-free, non-comedogenic </li>
+        </ul>
+    </div>
+    <h2><center><i>Hair Products</i></center></h2>
+    <div class="hair">
+        <img src="cantu leavein 1100.jpg" alt="LEAVE-IN" class="hairimg">
+        <p class="hairtext">Tired of dry, damaged hair? Cantu's Leave-In Conditioning Repair Cream is the solution. This rich, nourishing hair cream brings your hair back to life. <br><br>Cantu's blend of natural ingredients like shea butter, avocado oil, castor oil, and honey go to work to transform your hair. This leave-in conditioner penetrates deep to restore and rebuild from root to tip. <br><br>KSH 1100 
+            <button onclick="disCantu()">Read More</button>
+        </p>
+        <ul class="hairlist" id="cantuul" style="display: none;">
+            <li> Deeply conditions, softens, and strengthens hair  </li>
+            <li>Reduces breakage and repairs split ends</li>
+            <li>Enhances natural shine and smoothness </li>
+            <li>Seals in moisture to hydrate hair</li>
+        </ul>
+    </div>
+    <div class="hair">
+        <img src="venus antibreakage.jpg" alt="" class="hairimg">
+        <p class="hairtext">Desire to see that long hair? Meet Venus hair food anti-breakage. <br><br>Venus hair food's proprietary blend of nourishing oils and proteins gives even the most damaged hair what it needs to avoid breakage <br><br><br><br>KSH 320
+            <button onclick="disVenus()">Read More</button>
+        </p>
+        <ul class="hairlist" id="venusul" style="display: none;">
+            <li>Reduces breakage and split ends </li>
+            <li>Softens and strengthens strands  </li>
+            <li>Seals in moisture for hydration </li>
+            <li>Enhances shine and smoothness</li>
+        </ul>
+    </div>
+    <h2><center><i>Other Products</i></center></h2>
+    <div class="prod">
+        <img src="venus1.jpg" alt="">
+        <img src="mikala scalp soother.jpg" alt="">
+        <img src="tcb.jpg" alt="">
+    </div>
+    <div class="prod">
+        <img src="cerave2.jpg" alt="">
+        <img src="garnier.jpg" alt="">
+        <img src="garnier2.jpg" alt="">
+    </div>
+</body>
+<script>
+    function disCerave(){
+        let ceralist = document.getElementById("ceraul");
+        if(ceralist.style.display === 'none')
+        {
+           ceralist.style.display = 'block';
+        }
+        else if(ceralist.style.display === 'block')
+        {
+            ceralist.style.display = 'none';
+        }
+    }
+    function disClin(){
+        let clinlist = document.getElementById("clinul");
+        if(clinlist.style.display === 'none')
+        {
+           clinlist.style.display = 'block';
+        }
+        else if(clinlist.style.display === 'block')
+        {
+            clinlist.style.display = 'none';
+        }
+    }
+    function disCantu(){
+        let cantulist = document.getElementById("cantuul");
+        if(cantulist.style.display === 'none')
+        {
+           cantulist.style.display = 'block';
+        }
+        else if(cantulist.style.display === 'block')
+        {
+            cantulist.style.display = 'none';
+        }
+    }
+    function disVenus(){
+        let venlist = document.getElementById("venusul");
+        if(venlist.style.display === 'none')
+        {
+           venlist.style.display = 'block';
+        }
+        else if(venlist.style.display === 'block')
+        {
+            venlist.style.display = 'none';
+        }
+    }
+</script>
+</html>

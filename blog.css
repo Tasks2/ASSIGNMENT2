@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia;
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    font-family: Arial;
+    width: 100%;
+    height: 72px;
+    display: flex;
+}
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.85px;
+    padding: 12px 30px;
+    color: rgb(249, 154, 12);
+}
+nav ul li {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+    margin-top: 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 9.75px 20px;
+    font-weight: bold;
+    color: #6633FF;
+}
+nav ul li a:hover{
+    
+    color: rgb(4, 205, 4);
+    transition: 0.35s;
+}
+nav ul li .active{
+    color: rgb(4, 205, 4);
+}
+p{
+    margin: 5px 10px 0 10px;
+    padding: 0px 35px 2px 35px;
+    text-align: justify;
+    font-size: 17px;
+    font-style: oblique;
+    line-height: 27.25px;
+    letter-spacing: 0.5px;
+    font-weight: 30px;
+    color: #993300;
+    color: #990000;
+}
